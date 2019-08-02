@@ -1,0 +1,27 @@
+package kr.co.mlec.Stack;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+//문제명 : 괄호
+public class Stack_9012 {
+	public static void main(String[] args) {
+		int num=0; // ( 의 개수를 알기위해
+		Scanner sc = new Scanner(System.in); // 몇번 반복 할지를 입력받기 위해선언
+		int cnt = sc.nextInt();
+		String ps; // 괄호문자열을 입력받기위해 선언
+		for (int i = 0; i < cnt; i++) { //몇번 반복 할것인가
+			ps = sc.nextLine(); // 괄호문자열 입력받고
+			int size = ps.length(); //괄호문자열의 크기만큼 하기위해
+			for (int j = 0; j < size; i++) {
+				char a = ps.charAt(j); // 첫번째 원소부터 찾아서
+				if(a=='(') {
+					
+				}
+				
+			}
+
+		}
+
+	}
+}
