@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 //문제명 : 괄호
+//문제번호 :9012
 public class Stack_9012 {
 	public static void main(String[] args) {
 		int num=0; // ( 의 개수를 알기위해
@@ -19,10 +20,9 @@ public class Stack_9012 {
 	
 				if(a=='(') { // ( 가 나오면 num을 증가
 					num=num+1;
-					System.out.println("( :" + num);
+					
 				}else {
 					num=num-1; // ) 가나오면 num 감소
-					System.out.println(") :" + num);
 				}
 				
 				if(num<0) { // num 이 마이너스가 된다는 것은 ) 의 수가 앞에나온 ( 수보다 많거나, 첫번째로 나온것이기에 ps가아님
