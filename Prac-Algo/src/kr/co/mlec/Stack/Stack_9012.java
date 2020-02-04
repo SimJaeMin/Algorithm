@@ -6,6 +6,10 @@ import java.util.Stack;
 //문제명 : 괄호
 //문제번호 :9012
 public class Stack_9012 {
+	
+	public static String aa() {
+		return "Aa";
+	}
 	public static void main(String[] args) {
 		int num=0; // ( 의 개수를 알기위해
 		Scanner sc = new Scanner(System.in); //몇번 반복 할지를 입력받기 위해선언

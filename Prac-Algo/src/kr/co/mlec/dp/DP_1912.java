@@ -26,6 +26,7 @@ public class DP_1912 {
 		for(int i=1;i<=num;i++) {
 			dp[i]=Math.max(dp[i-1]+a[i], a[i]); //연속된 수니까 자기자신과, 이전꺼와 자기자신을 더한값중 큰값
 		}
+		
 		int max=dp[1];
 		for(int i=2;i<=num;i++) { //그중 가장 큰값을 찾으면된다.
 			if(max<dp[i]) {
